@@ -11,10 +11,10 @@ COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 # Copy the entire content of the local flask_file directory to the container
-COPY flask_files/ .
+COPY framework_files/ .
 
 # Set the working directory to the flask_file directory
-WORKDIR /app/flask_files
+WORKDIR /app/framework_files
 
 # Run app.py when the container launches
 CMD ["python3", "app.py"]
