@@ -16,5 +16,5 @@ COPY app_files/ .
 # Set the working directory to the flask_file directory
 WORKDIR /framework_files/app_files
 
-# Run app.py when the container launches
+# Runing app.py when the container launches
 CMD ["python3", "app.py"]
