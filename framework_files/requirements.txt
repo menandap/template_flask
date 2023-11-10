@@ -1,2 +1,3 @@
 Flask
+pymysql # for db
 # DEFINE MORE PLUGIN HERE 
